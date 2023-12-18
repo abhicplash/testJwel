@@ -1,0 +1,44 @@
+.collection {
+    width: 100%;
+    height: 1500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.collectionimg {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.colimg {
+    width: 310px;
+    height: 250px;
+    box-shadow: 2px 2px 2px grey;
+
+}
+
+.colldiv {
+    height: 250px;
+    width: 310px;
+    background-color: rgb(249, 244, 244);
+    box-shadow: 2px 2px 2px grey;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

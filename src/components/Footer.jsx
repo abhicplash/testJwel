@@ -7,16 +7,12 @@ import { FiYoutube } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaPinterest } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-
+import logo from "../images/logo.png"
 function Footer() {
   return (
     <div className='footer'>
-      <div>
-        <h3 className='headfooter'>NEWSLETTER</h3>
-        <h4 className='befooter'>Be the first to know more about <br />
-          exciting new designs, Store Openings, <br />
-          and much more.
-        </h4>
+      <div className='logodiv'>
+        <img className='logoimg' src={logo} alt="" />
         <div className="lowerfooter">
           <h4>FOLLOW US</h4>
           <div className="icons">
@@ -29,39 +25,31 @@ function Footer() {
             <FaWhatsapp className='icnfooter' />
           </div>
         </div>
-
       </div>
-
-
       <ul className='footerlist'>
         <li>
-          <h3>AQUAE JEWELS</h3>
+          <h3>CONTACT US</h3>
         </li>
-        <li>  Stores</li>
-        <li>  Blogs</li>
-        <li>  Press Reviews</li>
-        <li>  Corporate & Business Gifting</li>
-        <li>  Wholesale</li>
-        <li>  Customer Reviews</li>
+        <li>  Link Road, Kayamkulam-INDIA</li>
+        <li>  Tel: 0479 2445757</li>
+        <li>  Customer Care: 9847 570333</li>
+        <li>  First Floor, Nesto Hyper Market,</li>
+        <li>  Mushriff, Ajman-UAE</li>
+        <li>  P.O BOX:1637</li>
+        <li>  Office 305, HIND7,Waterfront</li>
+        <li>  Opp.Gold Centre Building</li>
+        <li>Gold Souq Deira-UAE</li>
+      </ul>
+      <ul className='footerlist'>
+        <li>
+          <h3>INFORMATION</h3>
+        </li>
+        <li>  About Us</li>
         <li>  Privacy Policy</li>
-        <li>  Terms & Conditions</li>
+        <li>  Terms And Conditions</li>
+        <li>  Frequently Asked Questions</li>
       </ul>
-
-
-      <ul className='footerlist'>
-        <li>
-          <h3>CUSTOMER SERVICE</h3>
-        </li>
-        <li>  Contact Us</li>
-        <li>  Gift Cards</li>
-        <li>  Delivery & Returns</li>
-        <li>  Customized Pieces</li>
-        <li>  Product Care</li>
-        <li>  Sizing Guide</li>
-      </ul>
-
     </div>
   )
 }
-
 export default Footer

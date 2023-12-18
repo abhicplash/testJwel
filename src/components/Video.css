@@ -1,0 +1,24 @@
+.main1
+{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+}
+
+.video
+{
+    width: 600px;
+    height: 300px;
+    padding-left: 30px;
+}
+.h1
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.para1
+{
+    padding-left: 40px;
+}

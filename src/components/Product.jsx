@@ -1,43 +1,55 @@
 import React from 'react'
 import './Product.css'
 import Button from '../elements/Button'
-
 function Product() {
     return (
         <div className="main-product" >
-            <h3>Aquae Jewels Collections</h3>
+            <h3>Arabian Gold And Diamond Collections</h3>
             <div className='submain' >
-
                 <div>
-                    <img src="https://www.aquae-jewels.com/wp-content/uploads/2023/11/Earring-Pear-Chic-PAIR-Y-shadow-1536x1536.webp" alt="" />
-                    <h5>Earrings</h5>
+                    <img className='collectionimg' src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/03/nidhi-collections3.webp" alt="" />
+                    <h5>PRECIOUS STONE JEWELLERY</h5>
                 </div>
                 <div>
-                    <img src="https://www.aquae-jewels.com/wp-content/uploads/2023/11/BG_01-YG-1-shadow-1536x1536.webp" alt="" />
-                    <h5>Bracelets</h5>
+                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/03/varna-collections2.webp" alt="" />
+                    <h5>SIGNITY JEWELLERT COLLECTION</h5>
 
                 </div>
                 <div>
-                    <img src="https://www.aquae-jewels.com/wp-content/uploads/2023/11/P_02-YG-E-1-shadow-1536x1536.webp" alt="" />
+                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/2-shila.webp" alt="" />
+                    <h5>ANTIQUE JEWELLWRY</h5>
+                </div>
+            </div>
+            <div className='submain' >
+                <div>
+                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/1-siri.webp" alt="" />
+                    <h5>DIAMOND JEWELLERY </h5>
+                </div>
+                <div>
+                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/nila-2.webp" alt="" />
+                    <h5>UNCUT DIAMOND</h5>
+                </div>
+                <div>
+                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/2-lekshya.webp" alt="" />
+                    <h5>CHETTINAD JEWELLERY</h5>
+                </div>
+            </div>
+            <div className='submain' >
+                <div>
+                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/noora-3.webp" alt="" />
                     <h5>Necklaces</h5>
                 </div>
                 <div>
-                    <img src="https://www.aquae-jewels.com/wp-content/uploads/2023/11/R-CAVALIER-PREM-Y-1-shadow-1536x1536.webp" alt="" />
-                    <h5>Rings</h5>
+                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/1-zara.webp" alt="" />
+                    <h5>KIDS JEWELLERY</h5>
                 </div>
                 <div>
-                    <img src="https://www.aquae-jewels.com/wp-content/uploads/2023/11/NP-ORIENTAL-BLESS-Y-shadow-1536x1536.webp" alt="" />
-                    <h5>Body jewellery </h5>
-                </div>
-                <div>
-                    <img src="https://www.aquae-jewels.com/wp-content/uploads/2023/11/A-HANGING-TRIANGLE-Y-1-shadow-1536x1536.webp" alt="" />
-                    <h5>Anklet chains</h5>
+                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/3-yuma.webp" alt="" />
+                    <h5>ROSE GOLD JEWELLERY</h5>
                 </div>
             </div>
-            <Button abhilash="click"/>
-            
+            <Button abhilash="click" />
         </div>
     )
 }
-
 export default Product

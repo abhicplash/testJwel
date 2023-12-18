@@ -1,7 +1,12 @@
 .main-banner {
   width: 100%;
   height: 490px;
-  /* background-color: red;
-   */
-  background: url("https://www.aquae-jewels.com/wp-content/uploads/2023/11/Black-friday-banner-with-rings-v3.webp");
+  background-color: red; 
+  
+  /* background: url("https://www.aquae-jewels.com/wp-content/uploads/2023/11/Black-friday-banner-with-rings-v3.webp"); */
+}
+.bannerimg
+{
+  width: 1150px;
+  height: 490px;
 }

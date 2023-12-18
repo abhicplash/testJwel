@@ -1,39 +1,64 @@
 .footer {
   width: 100%;
   height: 500px;
-  /* background-color: #fff; */
+  background-color: #661414;
   display: flex;
   align-items: start;
   justify-content: center;
-  padding-top: 100px;
   gap: 100px;
+  color: white;
 }
+
 .footerlist {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-top: 70px;
 }
+
 .headfooter {
   margin-top: 35px;
 }
+
 .befooter {
   font-weight: 200;
 }
+
 .icons {
   display: flex;
   gap: 5px;
 }
+
 .icnfooter {
   font-size: 23px;
   border: 1px solid;
   border-radius: 100%;
   padding: 7px;
-  background-color: #2d2d2d;
+  background-color: #661414;
   color: white;
   cursor: pointer;
 }
+
 .lowerfooter {
   margin-left: 40px;
   text-align: center;
+  margin-top: 150px;
+}
+
+.logoimg {
+  width: 150px;
+  margin-left: 120px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.logodiv {
+  height: 250px;
+  width: 350px;
+  background-color: #661414;
+  margin-top: 40px;
+
 }

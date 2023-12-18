@@ -1,27 +1,20 @@
 import React from 'react'
 import './Videocard.css'
-import one from '../assets/onevcard.mp4'
-import two from '../assets/twocard.mp4'
-import three from '../assets/threevcard.mp4'
-import Button from '../elements/Button'
-
 function Videocard() {
     return (
         <div className='mainvideo'>
             <div>
-                <video className='vdocard' src={one} autoPlay muted loop />
-                <h4>Embrace the beauty of bangles</h4>
+                <img className='imggg' src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/03/yuma.png" alt="" />
             </div>
             <div>
-                <video className='vdocard' src={two} autoPlay muted loop />
-                <h4>mis and match with style</h4>
+                <img className='imggg' src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/03/zara.png" alt="" />
 
             </div>
             <div>
-                <video className='vdocard' src={three} autoPlay muted loop />
-                <h4>discover your perfect website</h4>
-
-
+                <img className='imggg' src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/03/varna.png" alt="" />
+            </div>
+            <div>
+                <img className='imggg' src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/03/nidhi.png" alt="" />
             </div>
         </div>
     )

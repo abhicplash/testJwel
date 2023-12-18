@@ -1,0 +1,35 @@
+.siri {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(227, 224, 224);
+}
+.siriimg {
+    width: 990px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 70px;
+    position: absolute;
+}
+.siriimgs 
+{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.siriimgsdiv {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    z-index: 2;
+    width: 910px;
+    overflow-x: auto;
+    /* background-color: #66141452; */
+    /* margin-left: 10px; */
+    /* padding: 18px 40px ; */
+    top: 68%;
+    left: 7%;
+}
+
+.siriimgsdiv::-webkit-scrollbar {
+    display: none;
+}

@@ -1,13 +1,15 @@
 .main-nav {
   display: flex;
   width: 100%;
-  height: 80px;
-  /* border: 1px solid; */
+  height: 130px;
+
   justify-content: center;
   align-items: center;
   gap: 300px;
-  background-color: white;
+  background-color: #661414;
+  color: white;
 }
+
 .left {
   display: flex;
   gap: 15px;
@@ -18,13 +20,23 @@
   height: 20px;
   border-radius: 100%;
 }
+
 .navicons {
   display: flex;
   gap: 15px;
 }
+
 .icon {
   font-size: 23px;
 }
-.select{
-    border: none;
+
+.select {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.imgg {
+  width: 130px;
+
 }
