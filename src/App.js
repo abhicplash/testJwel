@@ -12,7 +12,7 @@ import Get from "./components/Get";
 import Gift from "./components/Gift";
 import Footer from "./components/Footer";
 
-function App() {
+function App() {  
   return (
     <div className="main">
       <Topbar />
