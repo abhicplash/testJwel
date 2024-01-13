@@ -16,8 +16,6 @@ function Videocard() {
                     <p>We are always keen in keeping our product range updated <br/> according to the latest global trends. In addition to this, we have <br/> succeeded in developing our in-house design centers to stay <br/> ahead with our uniqueness. The phenomenal success of the group has been <br/> driven by an unstinting commitment to quality, a fact <br/> that has been widely recognized.</p>
                 </div>
             </div>
-
-
         </div>
     )
 }

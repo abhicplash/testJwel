@@ -28,6 +28,7 @@ export const SliderData = [
     image: slide6
   },
   {
-    image: slide7
-  }
+    image: slide7
+  }
+
 ];

@@ -20,7 +20,6 @@ function Gift() {
                     prices.
                 </h3>
                 <h4><a href="">Learn More</a></h4>
-
             </div>
             <div className='items'>
                 <img src={gift2} alt="" />
@@ -37,7 +36,6 @@ function Gift() {
                     coming from Aquae Jewels.
                 </h3>
                 <h4><a href="">Learn More</a></h4>
-
             </div>
             <div className='items'>
                 <img src={gift3} alt="" />

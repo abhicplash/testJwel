@@ -38,5 +38,4 @@ const ImageSlider = ({ slides }) => {
     </section>
   );
 };
-
-export default ImageSlider;
+export default ImageSlider;

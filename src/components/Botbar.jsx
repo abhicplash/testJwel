@@ -1,5 +1,10 @@
 import React from 'react'
 import './Botbar.css'
+import { CiSearch } from "react-icons/ci";
+import { AiOutlineUser } from "react-icons/ai";
+import { LiaShoppingBagSolid } from "react-icons/lia";
+import { IoIosOptions } from "react-icons/io";
+import { Link } from 'react-router-dom';
 import { FaMobileScreenButton } from "react-icons/fa6";
 import { IoOptionsOutline } from "react-icons/io5";
 

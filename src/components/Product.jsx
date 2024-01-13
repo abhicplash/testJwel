@@ -16,7 +16,6 @@ function Product() {
         <div className="main-product" >
             <h3>Arabian Gold & Diamonds Collections</h3>
             <div className='submain' >
-
                 <div>
                     <img src={one} alt="" />
                     <h4>Lekshya</h4>
@@ -59,6 +58,8 @@ function Product() {
                         <h6>shop now</h6>
                     </a>
                 </div>
+            </div>
+            <div className='submain' >
                 <div>
                     <img src={seven} alt="" />
                     <h4>Varna</h4>
@@ -81,10 +82,22 @@ function Product() {
                     </a>
                 </div>
             </div>
-            <Button abhilash="click"/>
-            
+            <div className='submain' >
+                <div>
+                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/noora-3.webp" alt="" />
+                    <h5>Necklaces</h5>
+                </div>
+                <div>
+                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/1-zara.webp" alt="" />
+                    <h5>KIDS JEWELLERY</h5>
+                </div>
+                <div>
+                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/3-yuma.webp" alt="" />
+                    <h5>ROSE GOLD JEWELLERY</h5>
+                </div>
+            </div>
+            <Button abhilash="click" />
         </div>
     )
 }
-
 export default Product

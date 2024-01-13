@@ -16,6 +16,8 @@
 
 .image {
   margin:0;
+  overflow:hidden;
+  width: 100px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -49,11 +51,5 @@
 
 .slide {
   opacity: 0;
-  transition-duration: 1s ease;
-}
-
-.slide.active {
-  opacity: 1;
-  transition-duration: 1s;
-  transform: scale(1.08);
+  transition-duration: 1s ease;
 }

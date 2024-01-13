@@ -1,4 +1,3 @@
-import React from 'react'
 import './Collection.css'
 import Topbar from "./Topbar";
 import Navbar from "./Navbar";

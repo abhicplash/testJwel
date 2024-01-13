@@ -1,7 +1,7 @@
 .main-bot {
   width: 100%;
-  height: 80px;
-  /* border: 1px solid; */
+  height: 50px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,5 +61,13 @@
 {
     border-bottom:none ;
     color:	#bf9b30;
+}
+.select
+{
+  background-color:transparent;
+}
+.h55
+{
+  color: white;
 }
 
