@@ -1,37 +1,85 @@
 import React from 'react'
 import './Product.css'
 import Button from '../elements/Button'
+import one from '../Images/PLekshya.png'
+import two from '../Images/PNidhi.png'
+import three from '../Images/PNila.png'
+import four from '../Images/PNoora.png'
+import five from '../Images/PShila.png'
+import six from '../Images/PSiri.png'
+import seven from '../Images/PVarna.png'
+import eight from '../Images/PYuma.png'
+import nine from '../Images/PZara.png'
+
 function Product() {
     return (
         <div className="main-product" >
-            <h3>Arabian Gold And Diamond Collections</h3>
+            <h3>Arabian Gold & Diamonds Collections</h3>
             <div className='submain' >
                 <div>
-                    <img className='collectionimg' src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/03/nidhi-collections3.webp" alt="" />
-                    <h5>PRECIOUS STONE JEWELLERY</h5>
+                    <img src={one} alt="" />
+                    <h4>Lekshya</h4>
+                    <a href="">
+                        <h6>shop now</h6>
+                    </a>
                 </div>
                 <div>
-                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/03/varna-collections2.webp" alt="" />
-                    <h5>SIGNITY JEWELLERT COLLECTION</h5>
-
+                    <img src={two} alt="" />
+                    <h4>Nidhi</h4>
+                    <a href="">
+                        <h6>shop now</h6>
+                    </a>
                 </div>
                 <div>
-                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/2-shila.webp" alt="" />
-                    <h5>ANTIQUE JEWELLWRY</h5>
+                    <img src={three} alt="" />
+                    <h4>Nila</h4>
+                    <a href="">
+                        <h6>shop now</h6>
+                    </a>
+                </div>
+                <div>
+                    <img src={four} alt="" />
+                    <h4>Noora</h4>
+                    <a href="">
+                        <h6>shop now</h6>
+                    </a>
+                </div>
+                <div>
+                    <img src={five} alt="" />
+                    <h4>Shila</h4>
+                    <a href="">
+                        <h6>shop now</h6>
+                    </a>
+                </div>
+                <div>
+                    <img src={six} alt="" />
+                    <h4>Siri</h4>
+                    <a href="">
+                        <h6>shop now</h6>
+                    </a>
                 </div>
             </div>
             <div className='submain' >
                 <div>
-                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/1-siri.webp" alt="" />
-                    <h5>DIAMOND JEWELLERY </h5>
+                    <img src={seven} alt="" />
+                    <h4>Varna</h4>
+                    <a href="">
+                        <h6>shop now</h6>
+                    </a>
                 </div>
                 <div>
-                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/nila-2.webp" alt="" />
-                    <h5>UNCUT DIAMOND</h5>
+                    <img src={eight} alt="" />
+                    <h4>Yuma</h4>
+                    <a href="">
+                        <h6>shop now</h6>
+                    </a>
                 </div>
                 <div>
-                    <img src="https://arabiangoldanddiamonds.com/wp-content/uploads/2023/04/2-lekshya.webp" alt="" />
-                    <h5>CHETTINAD JEWELLERY</h5>
+                    <img src={nine} alt="" />
+                    <h4>Zara</h4>
+                    <a href="">
+                        <h6>shop now</h6>
+                    </a>
                 </div>
             </div>
             <div className='submain' >

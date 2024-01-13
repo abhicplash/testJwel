@@ -14,6 +14,7 @@ function Footer() {
       <div className='logodiv'>
         <img className='logoimg' src={logo} alt="" />
         <div className="lowerfooter">
+          <img className="glogo" src={one} alt="" />
           <h4>FOLLOW US</h4>
           <div className="icons">
             <ImFacebook2 className='icnfooter' />
@@ -29,6 +30,7 @@ function Footer() {
       <ul className='footerlist'>
         <li>
           <h3>CONTACT US</h3>
+          <h3>Arabian Gold & Diamonds</h3>
         </li>
         <li>  Link Road, Kayamkulam-INDIA</li>
         <li>  Tel: 0479 2445757</li>
@@ -48,6 +50,12 @@ function Footer() {
         <li>  Privacy Policy</li>
         <li>  Terms And Conditions</li>
         <li>  Frequently Asked Questions</li>
+        <li>  Contact Us</li>
+        <li>  Gift Cards</li>
+        <li>  Delivery & Returns</li>
+        <li>  Customized Pieces</li>
+        <li>  Product Care</li>
+        <li>  Sizing Guide</li>
       </ul>
     </div>
   )

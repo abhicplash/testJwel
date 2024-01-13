@@ -1,29 +1,28 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
-import Botbar from './Botbar'
-import "./Collection.css"
-import Varna from './Varna'
-import Nidhi from './Nidhi'
-import Loginpage from './Loginpage'
-import Shila from './Shila'
-import Shilaimages from './Shilaimages'
-import Siri from './Siri'
+import './Collection.css'
+import Topbar from "./Topbar";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import Subbar from "./Subbar";
+//import Items from "./Items";
+// import ImageSlid from './ImageSlide';
+// import { SlidData } from './SlidData';
+// import slideshow from "./Slideshow";
+import lekshya from '.lekshya';
+import { LekshyaData } from './LekshyaData';
+
+
 function Collection() {
-  return (
-    <div>
-      <Navbar />
-      <Botbar />
-      <Nidhi/>
-      <Varna/>
-      
-      <Siri/>
-      <Shila/>
-      {/* <Shilaimages/> */}
-      {/* <Loginpage/> */}
-      {/* <Footer/> */}
-</div>
-  )
+    return (
+        <div>
+            <Topbar />
+            <Navbar />
+            <Subbar />
+{/*             <ImageSlid slides={SlidData} /> */}
+{/*             <slideshow /> */}
+{/*             <Items /> */}
+            <Footer />
+        </div>
+    )
 }
 
 export default Collection

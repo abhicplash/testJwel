@@ -5,61 +5,47 @@ import { AiOutlineUser } from "react-icons/ai";
 import { LiaShoppingBagSolid } from "react-icons/lia";
 import { IoIosOptions } from "react-icons/io";
 import { Link } from 'react-router-dom';
+import { FaMobileScreenButton } from "react-icons/fa6";
+import { IoOptionsOutline } from "react-icons/io5";
 
 function Botbar() {
-    return (
-        <div className='main-bot'>
-            <div className="lang">
-                <select className='select' >
-                    <option >
-                        EN
-                    </option>
-                    <option >
-                        DE
-                    </option>
-                    <option >
-                        FR
-                    </option>
-                    <option >
-                        IT
-                    </option>
-                    <option >
-                        RU
-                    </option>
-                    <option >
-                        ZH
-                    </option>
-
-                </select>
-            </div>
-            <div className="currency">
-                <select className='select' >
-                    <option >
-                        AED
-                    </option>
-                    <option >
-                        USD
-                    </option>
-                    <option >
-                        YEN
-                    </option>
-                    <option >
-                        IND
-                    </option>
-                </select>
-            </div>
-            <Link to={"/"}>   <h5 className='h55'>Home</h5></Link>
-            <Link to={"/collections"}>   <h5 className='h55'>Collections</h5></Link>
-            <h5>Gold Purchase Scheme</h5>
-            <h5>Gold Rate</h5>
-            <div className="navicons">
-
-                <CiSearch className='icon' />
-                <AiOutlineUser className='icon' />
-                <LiaShoppingBagSolid className='icon' />
-            </div>
+  return (
+    <div className='main-bot'>
+        <h5>Home</h5>
+        <h5>Collections</h5>
+        <h5>Gold Purchase Scheme</h5>
+        <h5>Gold Rate</h5>
+        <div className="cont">
+            <h4>Customer Care <br/> +91 9847 570333</h4>
+            <FaMobileScreenButton className="icon" />
         </div>
-    )
+        <button className="filt">
+            <IoOptionsOutline className="icon"/>
+{/*             <h5>Filter</h5> */}
+            <select className='filter' >
+                        <option >
+                           Price
+                        </option>
+                        <option >
+                           Jewellery type
+                        </option>
+                        <option >
+                            Product
+                        </option>
+                        <option >
+                            Brand
+                        </option>
+                        <option >
+                            Gender
+                        </option>
+                        <option >
+                            Purity
+                        </option>
+
+                    </select>
+        </button>
+    </div>
+  )
 }
 
 export default Botbar

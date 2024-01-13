@@ -1,13 +1,12 @@
 import React from 'react'
-// import './SliderData.css'
-// import "./App.css"
-import slide1 from '../images/slider1.png'
-import slide2 from '../images/slider2.png'
-import slide3 from '../images/slider3.png'
-import slide4 from '../images/slider4.png'
-import slide5 from '../images/slider5.png'
-import slide6 from '../images/slider6.png'
-import slide7 from '../images/slider7.png'
+import './SliderData.css'
+import slide1 from '../Images/Slider1.png'
+import slide2 from '../Images/slider2.png'
+import slide3 from '../Images/Slider3.png'
+import slide4 from '../Images/slider4.png'
+import slide5 from '../Images/slider5.png'
+import slide6 from '../Images/slider6.png'
+import slide7 from '../Images/slider7.png'
 
 export const SliderData = [
   {
@@ -31,4 +30,5 @@ export const SliderData = [
   {
     image: slide7
   }
+
 ];
