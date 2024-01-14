@@ -1,7 +1,7 @@
-.main {
+.coll {
   width: 100%;
   height: 100%;
-  background-color: #debd68;
+  background-color: #ddba60;
 }
 .each-slide-effect > div {
   display: flex;

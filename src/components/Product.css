@@ -2,12 +2,12 @@
   width: 100%;
   height: 100%;
   /* border: 1px solid; */
-  margin-top:50px;
+  margin-top:-10px;
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  gap:1px;
+  gap: -80px;
 }
 .submain {
   margin-top:30px;
@@ -39,7 +39,7 @@
 }
 .submain div h4
 {
-    color:#a9a9a9;
+    color:#661414;
 }
 .main-product button {
   text-transform: uppercase;

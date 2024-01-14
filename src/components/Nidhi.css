@@ -1,0 +1,59 @@
+.nidhi
+{
+    width: 100%;
+    height: 600px;
+    /* background-color: rgb(227, 224, 224); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top:-10px; */
+    margin-left: -15px;
+}
+.nidhiimg
+{
+    width: 990px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 70px;
+    position: absolute;
+}
+/* .btnn
+{
+    background-color:transparent;
+    height: 40px;
+    width: 200px;
+    z-index: 4;
+    margin-top: 400px;
+    margin-left: 800px;
+    border-radius: 5px;
+    border: none;
+} */
+.h2
+{
+    display: flex;
+    justify-content: center;
+}
+.nidhiimgs
+{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px; 
+    
+}
+.nidhiimgsdiv
+{
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    z-index: 2;
+    width: 910px;
+    overflow-x: auto;
+    background-color: #4a151552;
+    top: 100%;
+    left: 20%;
+}
+.nidhiimgsdiv::-webkit-scrollbar
+{
+    display: none;
+}
